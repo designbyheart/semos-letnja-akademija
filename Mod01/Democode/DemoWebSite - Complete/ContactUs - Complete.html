@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Us</title>
+    <!-- <link href="styles/ContactUsStyles.css" rel="stylesheet" type="text/css" /> -->
+    <link href="styles/styles2/newStyle.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Contact Contoso Conferencing</h1>
+    <p>Contoso Conferencing Ltd.</p>
+    <p class="address">
+      <a href="https://google.com" target="_blank">123 South Street</a>
+      Somewhere<br />
+      Over There<br />
+      <em style="color: red;">USA</em>
+    </p>
+    <p>
+      <a href="mailto:contact@contoso.com">contact@contoso.com</a>
+    </p>
+    <img src="images/ContosoLogo.png" alt="Contoso Logo" />
+    <p>
+      If you would like to contact Contoso Conferencing, whether you're
+      interested in our services or in a conference we're currently organizing,
+      don't hesitate to contact us using our enquiry form (<strong
+        >Bold fields</strong
+      >
+      are required).
+    </p>
+
+    <ul >
+      <li>Element 1123</li>
+      <li>Element 2</li>
+    </ul>
+
+    <ol>
+      <li>Element 1</li>
+      <li>Element 2</li>
+    </ol>
+
+    <form method="POST" action="support.aspx">
+      <fieldset>
+        <legend>Your Details and Enquiry</legend>
+        <ol>
+          <li>
+            <label>
+              <strong>Full name</strong><br />
+              <input type="input" name="UserName" />
+            </label>
+          </li>
+          <li>
+            <label>
+              Telephone number<br />
+              <input type="text" name="Phone" />
+            </label>
+          </li>
+          <li>
+            <label>
+              Email Address<br />
+              <input type="text" name="Email" />
+            </label>
+          </li>
+          <li>
+            <label>
+              <strong>Message</strong><br />
+              <textarea name="Message" cols="30" rows="10">
+Add your message here
+            </textarea
+              >
+            </label>
+          </li>
+        </ol>
+      </fieldset>
+      <input type="submit" value="Send" />
+    </form>
+
+    <form name="login">
+      <label for="username">Username</label>
+      <input id="username" type="text" />
+      <label for="password">Password</label>
+      <input id="password" type="password" />
+      <button type="submit">Login</button>
+  </form>
+  
+    <script type="text/javascript" src="alertme.js"></script>
+  </body>
+</html>
